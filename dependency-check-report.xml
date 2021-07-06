@@ -1,0 +1,1511 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://jeremylong.github.io/DependencyCheck/dependency-check.2.5.xsd">
+   <scanInfo>
+      <engineVersion>6.2.2</engineVersion>
+      <dataSource>
+         <name>NVD CVE Checked</name>
+         <timestamp>2021-07-01T19:48:03</timestamp>
+      </dataSource>
+      <dataSource>
+         <name>NVD CVE Modified</name>
+         <timestamp>2021-07-01T19:30:01</timestamp>
+      </dataSource>
+      <dataSource>
+         <name>VersionCheckOn</name>
+         <timestamp>2021-06-15T18:43:15</timestamp>
+      </dataSource>
+   </scanInfo>
+   <projectInfo>
+      <name></name>
+      <reportDate>2021-07-01T14:20:15.803391Z</reportDate>
+      <credits>This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov, NPM Public Advisories: https://www.npmjs.com/advisories, and the RetireJS community.</credits>
+   </projectInfo>
+   <dependencies>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar</filePath>
+         <md5>07c0b8808b55ef9c7426c216738c9d2a</md5>
+         <sha1>2e1948d08cc9987c3e8efa1e6f9f5dde2c34c066</sha1>
+         <sha256>1facb73b65b5b0ce6368fd94b84b31c51600c0a6b8f3cacd15b64dedd296e712</sha256>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>armorcode</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>io</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-classes</name>
+               <value>BOOT-INF/classes/</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-classpath-index</name>
+               <value>BOOT-INF/classpath.idx</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-layers-index</name>
+               <value>BOOT-INF/layers.idx</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-lib</name>
+               <value>BOOT-INF/lib/</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>io.armorcode</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://maven.apache.org</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>armorcode</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot-inf</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>classes</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>io</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-classes</name>
+               <value>BOOT-INF/classes/</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-classpath-index</name>
+               <value>BOOT-INF/classpath.idx</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-layers-index</name>
+               <value>BOOT-INF/layers.idx</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>spring-boot-lib</name>
+               <value>BOOT-INF/lib/</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>io.armorcode</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>remediation-sample</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://maven.apache.org</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>0.0.1-SNAPSHOT</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>0.0.1-SNAPSHOT</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/io.armorcode/remediation-sample@0.0.1-SNAPSHOT</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/io.armorcode/remediation-sample@0.0.1-SNAPSHOT?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+         </identifiers>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: commons-codec-1.15.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/commons-codec-1.15.jar</filePath>
+         <md5>303baf002ce6d382198090aedd9d79a2</md5>
+         <sha1>49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d</sha1>
+         <sha256>b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63</sha256>
+         <description>
+     The Apache Commons Codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.
+  </description>
+         <license>https://www.apache.org/licenses/LICENSE-2.0.txt</license>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>commons</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>encoder</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>automatic-module-name</name>
+               <value>org.apache.commons.codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>bundle-docurl</name>
+               <value>https://commons.apache.org/proper/commons-codec/</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>bundle-symbolicname</name>
+               <value>org.apache.commons.commons-codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>require-capability</name>
+               <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.7))&quot;</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>specification-vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache Commons Codec</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>parent-artifactid</name>
+               <value>commons-parent</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-groupid</name>
+               <value>org.apache.commons</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>https://commons.apache.org/proper/commons-codec/</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>commons</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>encoder</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>automatic-module-name</name>
+               <value>org.apache.commons.codec</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>bundle-docurl</name>
+               <value>https://commons.apache.org/proper/commons-codec/</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>Bundle-Name</name>
+               <value>Apache Commons Codec</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>bundle-symbolicname</name>
+               <value>org.apache.commons.commons-codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>Apache Commons Codec</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>require-capability</name>
+               <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.7))&quot;</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>specification-title</name>
+               <value>Apache Commons Codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>commons-codec</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache Commons Codec</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-artifactid</name>
+               <value>commons-parent</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-groupid</name>
+               <value>org.apache.commons</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>https://commons.apache.org/proper/commons-codec/</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>1.15</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>1.15</value>
+            </evidence>
+            <evidence type="version" confidence="LOW">
+               <source>pom</source>
+               <name>parent-version</name>
+               <value>1.15</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>1.15</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/commons-codec/commons-codec@1.15</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/commons-codec/commons-codec@1.15?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+         </identifiers>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: commons-collections4-4.1.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/commons-collections4-4.1.jar</filePath>
+         <md5>45af6a8e5b51d5945de6c7411e290bd1</md5>
+         <sha1>a4cf4688fe1c7e3a63aa636cc96d013af537768e</sha1>
+         <sha256>b1fe8b5968b57d8465425357ed2d9dc695504518bed2df5b565c4b8e68c1c8a5</sha256>
+         <description>The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.</description>
+         <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>commons-collections4</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>collections4</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>commons</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>bundle-docurl</name>
+               <value>http://commons.apache.org/proper/commons-collections/</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>bundle-symbolicname</name>
+               <value>org.apache.commons.collections4</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>implementation-build</name>
+               <value>tags/COLLECTIONS_4_1_RC2@r1716550; 2015-11-25 22:53:13+0100</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>Implementation-Vendor-Id</name>
+               <value>org.apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>require-capability</name>
+               <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>specification-vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>commons-collections4</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.commons</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache Commons Collections</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>parent-artifactid</name>
+               <value>commons-parent</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-groupid</name>
+               <value>org.apache.commons</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://commons.apache.org/proper/commons-collections/</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>commons-collections4</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>collections4</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>commons</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>bundle-docurl</name>
+               <value>http://commons.apache.org/proper/commons-collections/</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>Bundle-Name</name>
+               <value>Apache Commons Collections</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>bundle-symbolicname</name>
+               <value>org.apache.commons.collections4</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>implementation-build</name>
+               <value>tags/COLLECTIONS_4_1_RC2@r1716550; 2015-11-25 22:53:13+0100</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>Apache Commons Collections</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>require-capability</name>
+               <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>specification-title</name>
+               <value>Apache Commons Collections</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>commons-collections4</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.commons</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache Commons Collections</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-artifactid</name>
+               <value>commons-parent</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>parent-groupid</name>
+               <value>org.apache.commons</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://commons.apache.org/proper/commons-collections/</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>4.1</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>4.1</value>
+            </evidence>
+            <evidence type="version" confidence="LOW">
+               <source>pom</source>
+               <name>parent-version</name>
+               <value>4.1</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>4.1</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/org.apache.commons/commons-collections4@4.1</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-collections4@4.1?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+            <vulnerabilityIds confidence="HIGHEST">
+               <id>cpe:2.3:a:apache:commons_collections:4.1:*:*:*:*:*:*:*</id>
+               <url>https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;results_type=overview&amp;search_type=all&amp;cpe_vendor=cpe%3A%2F%3Aapache&amp;cpe_product=cpe%3A%2F%3Aapache%3Acommons_collections&amp;cpe_version=cpe%3A%2F%3Aapache%3Acommons_collections%3A4.1</url>
+            </vulnerabilityIds>
+         </identifiers>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: curvesapi-1.04.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/curvesapi-1.04.jar</filePath>
+         <md5>0dcbd9b7e498d1118c920d1d55046743</md5>
+         <sha1>3386abf821719bc89c7685f9eaafaf4a842f0199</sha1>
+         <sha256>ff71bd27b36816889324de58ecf642532e5c9934c1dca2cfea0cbb2f393ec2cb</sha256>
+         <description>Implementation of various mathematical curves that define themselves over a set of control points. The API is written in Java. The curves supported are: Bezier, B-Spline, Cardinal Spline, Catmull-Rom Spline, Lagrange, Natural Cubic Spline, and NURBS.</description>
+         <license>BSD License: http://opensource.org/licenses/BSD-3-Clause</license>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>graphbuilder</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>math</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>github.virtuald</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>virtuald/curvesapi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>math</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>github.virtuald</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>curvesapi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>url</name>
+               <value>virtuald/curvesapi</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>1.04</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>1.04</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/com.github.virtuald/curvesapi@1.04</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/com.github.virtuald/curvesapi@1.04?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+         </identifiers>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: poi-3.17.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/poi-3.17.jar</filePath>
+         <md5>243bc3d431e4fadb79738719504c64f7</md5>
+         <sha1>0ae92292a2043888b40d418da97dc0b669fde326</sha1>
+         <sha256>30181821dd2e849727b638b9e329aeff4a64f3445c4142b13cf7a18bb3552edd</sha256>
+         <description>Apache POI - Java API To Access Microsoft Format Files</description>
+         <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+         <relatedDependencies>
+            <relatedDependency>
+               <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: poi-ooxml-3.17.jar</fileName>
+               <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/poi-ooxml-3.17.jar</filePath>
+               <sha256>30181821dd2e849727b638b9e329aeff4a64f3445c4142b13cf7a18bb3552edd</sha256>
+               <sha1>07d8c44407178b73246462842bf1e206e99c8e0a</sha1>
+               <md5>16d7c8ccfc6ddefd890194f46ba4c66b</md5>
+               <identifiers>
+                  <package>
+                     <id>pkg:maven/org.apache.poi/poi-ooxml@3.17</id>
+                     <url>https://ossindex.sonatype.org/component/pkg:maven/org.apache.poi/poi-ooxml@3.17?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+                  </package>
+               </identifiers>
+            </relatedDependency>
+            <relatedDependency>
+               <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: poi-ooxml-schemas-3.17.jar</fileName>
+               <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/poi-ooxml-schemas-3.17.jar</filePath>
+               <sha256>30181821dd2e849727b638b9e329aeff4a64f3445c4142b13cf7a18bb3552edd</sha256>
+               <sha1>890114bfa82f5b6380ea0e9b0bf49b0af797b414</sha1>
+               <md5>dadbc17356f315e5a753d4641db26ba9</md5>
+               <identifiers>
+                  <package>
+                     <id>pkg:maven/org.apache.poi/poi-ooxml-schemas@3.17</id>
+                     <url>https://ossindex.sonatype.org/component/pkg:maven/org.apache.poi/poi-ooxml-schemas@3.17?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+                  </package>
+               </identifiers>
+            </relatedDependency>
+         </relatedDependencies>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>central</source>
+               <name>groupid</name>
+               <value>org.apache.poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>Implementation-Vendor-Id</name>
+               <value>org.apache.poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>specification-vendor</name>
+               <value>The Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.poi</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache POI</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>organization name</name>
+               <value>Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>pom</source>
+               <name>organization url</name>
+               <value>http://www.apache.org/</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://poi.apache.org/</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>central</source>
+               <name>artifactid</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>Apache POI</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>specification-title</name>
+               <value>Apache POI</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>poi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.poi</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>Apache POI</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>pom</source>
+               <name>organization name</name>
+               <value>Apache Software Foundation</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>pom</source>
+               <name>organization url</name>
+               <value>http://www.apache.org/</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://poi.apache.org/</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>central</source>
+               <name>version</name>
+               <value>3.17</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>3.17</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>3.17</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>3.17</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/org.apache.poi/poi@3.17</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/org.apache.poi/poi@3.17?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+            <vulnerabilityIds confidence="HIGHEST">
+               <id>cpe:2.3:a:apache:poi:3.17:*:*:*:*:*:*:*</id>
+               <url>https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;results_type=overview&amp;search_type=all&amp;cpe_vendor=cpe%3A%2F%3Aapache&amp;cpe_product=cpe%3A%2F%3Aapache%3Apoi&amp;cpe_version=cpe%3A%2F%3Aapache%3Apoi%3A3.17</url>
+            </vulnerabilityIds>
+         </identifiers>
+         <vulnerabilities>
+            <vulnerability source="NVD">
+               <name>CVE-2019-12415</name>
+               <severity>MEDIUM</severity>
+               <cvssV2>
+                  <score>2.1</score>
+                  <accessVector>LOCAL</accessVector>
+                  <accessComplexity>LOW</accessComplexity>
+                  <authenticationr>NONE</authenticationr>
+                  <confidentialImpact>PARTIAL</confidentialImpact>
+                  <integrityImpact>NONE</integrityImpact>
+                  <availabilityImpact>NONE</availabilityImpact>
+                  <severity>LOW</severity>
+                  <version>2.0</version>
+                  <exploitabilityScore>3.9</exploitabilityScore>
+                  <impactScore>2.9</impactScore>
+               </cvssV2>
+               <cvssV3>
+                  <baseScore>5.5</baseScore>
+                  <attackVector>LOCAL</attackVector>
+                  <attackComplexity>LOW</attackComplexity>
+                  <privilegesRequired>LOW</privilegesRequired>
+                  <userInteraction>NONE</userInteraction>
+                  <scope>UNCHANGED</scope>
+                  <confidentialityImpact>HIGH</confidentialityImpact>
+                  <integrityImpact>NONE</integrityImpact>
+                  <availabilityImpact>NONE</availabilityImpact>
+                  <baseSeverity>MEDIUM</baseSeverity>
+                  <exploitabilityScore>1.8</exploitabilityScore>
+                  <impactScore>3.6</impactScore>
+                  <version>3.1</version>
+               </cvssV3>
+               <cwes>
+                  <cwe>CWE-611</cwe>
+               </cwes>
+               <description>In Apache POI up to 4.1.0, when using the tool XSSFExportToXml to convert user-provided Microsoft Excel documents, a specially crafted document can allow an attacker to read files from the local filesystem or from internal network resources via XML External Entity (XXE) Processing.</description>
+               <references>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://www.oracle.com/security-alerts/cpuoct2020.html</url>
+                     <name>https://www.oracle.com/security-alerts/cpuoct2020.html</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://www.oracle.com/security-alerts/cpujan2021.html</url>
+                     <name>https://www.oracle.com/security-alerts/cpujan2021.html</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/2ac0327748de0c2b3c1c012481b79936797c711724e0b7da83cf564c@%3Cuser.tika.apache.org%3E</url>
+                     <name>[tika-user] 20191105 Is tika-parsers exposed to CVE-2019-12415</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://lists.apache.org/thread.html/13a54b6a03369cfb418a699180ffb83bd727320b6ddfec198b9b728e@%3Cannounce.apache.org%3E</url>
+                     <name>https://lists.apache.org/thread.html/13a54b6a03369cfb418a699180ffb83bd727320b6ddfec198b9b728e@%3Cannounce.apache.org%3E</name>
+                  </reference>
+                  <reference>
+                     <source>OSSINDEX</source>
+                     <url>https://ossindex.sonatype.org/vulnerability/6ea187cf-1c19-49cf-b052-c66a49d6a037?component-type=maven&amp;component-name=org.apache.poi.poi&amp;utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+                     <name>[CVE-2019-12415] In Apache POI up to 4.1.0, when using the tool XSSFExportToXml to convert user-p...</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/d88b8823867033514d7ec05d66f88c70dc207604d3dcbd44fd88464c@%3Cuser.tika.apache.org%3E</url>
+                     <name>[tika-user] 20191106 Re: Is tika-parsers exposed to CVE-2019-12415</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://www.oracle.com/security-alerts/cpujul2020.html</url>
+                     <name>https://www.oracle.com/security-alerts/cpujul2020.html</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/r204ba2a9ea750f38d789d2bb429cc0925ad6133deea7cbc3001d96b5@%3Csolr-user.lucene.apache.org%3E</url>
+                     <name>[lucene-solr-user] 20200320 CVEs (vulnerabilities) that apply to Solr 8.4.1</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://www.oracle.com/security-alerts/cpuApr2021.html</url>
+                     <name>https://www.oracle.com/security-alerts/cpuApr2021.html</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/895164e03a3c327449069e2fd6ced0367561878b3ae6a8ec740c2007@%3Cuser.tika.apache.org%3E</url>
+                     <name>[tika-user] 20191105 Re: Is tika-parsers exposed to CVE-2019-12415</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://www.oracle.com/security-alerts/cpujan2020.html</url>
+                     <name>https://www.oracle.com/security-alerts/cpujan2020.html</name>
+                  </reference>
+                  <reference>
+                     <source>N/A</source>
+                     <url>https://www.oracle.com/security-alerts/cpuapr2020.html</url>
+                     <name>N/A</name>
+                  </reference>
+               </references>
+               <vulnerableSoftware>
+                  <software vulnerabilityIdMatched="true" versionEndIncluding="4.1.0">cpe:2.3:a:apache:poi:*:*:*:*:*:*:*:*</software>
+               </vulnerableSoftware>
+            </vulnerability>
+         </vulnerabilities>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: spring-boot-jarmode-layertools-2.4.6.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/spring-boot-jarmode-layertools-2.4.6.jar</filePath>
+         <md5>ba6686c36f0c9fab88f18448fffaea58</md5>
+         <sha1>f3b204dc944547709181852c961f2786be39b4e0</sha1>
+         <sha256>d8a69207390cb5bda20d7caf19e495670b453158b70fb84d55decc93a4234893</sha256>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>spring-boot-jarmode-layertools</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>jarmode</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>springframework</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>automatic-module-name</name>
+               <value>spring.boot.loader.tools</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>spring-boot-jarmode-layertools</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>boot</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>jarmode</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>layertools</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>automatic-module-name</name>
+               <value>spring.boot.loader.tools</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>Manifest</source>
+               <name>build-jdk-spec</name>
+               <value>1.8</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>Spring Boot Loader Tools</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>2.4.6</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>2.4.6</value>
+            </evidence>
+         </evidenceCollected>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: stax-api-1.0.1.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/stax-api-1.0.1.jar</filePath>
+         <md5>7d436a53c64490bee564c576babb36b4</md5>
+         <sha1>49c100caf72d658aca8e58bd74a4ba90fa2b0d70</sha1>
+         <sha256>d1968436fc216c901fb9b82c7e878b50fd1d30091676da95b2edd3a9c0ccf92e</sha256>
+         <description>StAX API is the standard java XML processing API defined by JSR-173</description>
+         <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>central</source>
+               <name>groupid</name>
+               <value>stax</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>stax-api</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>javax</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>stream</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>xml</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Vendor</name>
+               <value>JCP</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>Manifest</source>
+               <name>specification-vendor</name>
+               <value>JCP-173</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>stax-api</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>stax</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>StAX API</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://stax.codehaus.org/</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>central</source>
+               <name>artifactid</name>
+               <value>stax-api</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>stax-api</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>stream</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>xml</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Title</name>
+               <value>StAX 1.0 API</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>Manifest</source>
+               <name>specification-title</name>
+               <value>StAX</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>stax-api</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>stax</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>StAX API</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://stax.codehaus.org/</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>central</source>
+               <name>version</name>
+               <value>1.0.1</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>1.0.1</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>Manifest</source>
+               <name>Implementation-Version</name>
+               <value>1.0.1</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>1.0.1</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/stax/stax-api@1.0.1</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/stax/stax-api@1.0.1?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+         </identifiers>
+      </dependency>
+      <dependency isVirtual="false">
+         <fileName>remediation-sample-0.0.1-SNAPSHOT.jar: xmlbeans-2.6.0.jar</fileName>
+         <filePath>/Users/dy/dev/repos/maven-remediation-sample/target/remediation-sample-0.0.1-SNAPSHOT.jar/BOOT-INF/lib/xmlbeans-2.6.0.jar</filePath>
+         <md5>6591c08682d613194dacb01e95c78c2c</md5>
+         <sha1>29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87</sha1>
+         <sha256>c77974359688b2823b48fa9a33da68559d64f8474441480d9df4f9e254332a96</sha256>
+         <description>XmlBeans main jar</description>
+         <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+         <evidenceCollected>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>central</source>
+               <name>groupid</name>
+               <value>org.apache.xmlbeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>impl</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>manifest: org/apache/xmlbeans/</source>
+               <name>Implementation-Vendor</name>
+               <value>Apache Software Foundation</value>
+            </evidence>
+            <evidence type="vendor" confidence="LOW">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.xmlbeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>XmlBeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGH">
+               <source>pom</source>
+               <name>organization name</name>
+               <value>XmlBeans</value>
+            </evidence>
+            <evidence type="vendor" confidence="MEDIUM">
+               <source>pom</source>
+               <name>organization url</name>
+               <value>http://xmlbeans.apache.org/</value>
+            </evidence>
+            <evidence type="vendor" confidence="HIGHEST">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://xmlbeans.apache.org</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>central</source>
+               <name>artifactid</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>file</source>
+               <name>name</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>apache</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>impl</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>jar</source>
+               <name>package name</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>jar</source>
+               <name>package name</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>manifest: org/apache/xmlbeans/</source>
+               <name>Implementation-Title</name>
+               <value>org.apache.xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>artifactid</name>
+               <value>xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="HIGHEST">
+               <source>pom</source>
+               <name>groupid</name>
+               <value>apache.xmlbeans</value>
+            </evidence>
+            <evidence type="product" confidence="HIGH">
+               <source>pom</source>
+               <name>name</name>
+               <value>XmlBeans</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>pom</source>
+               <name>organization name</name>
+               <value>XmlBeans</value>
+            </evidence>
+            <evidence type="product" confidence="LOW">
+               <source>pom</source>
+               <name>organization url</name>
+               <value>http://xmlbeans.apache.org/</value>
+            </evidence>
+            <evidence type="product" confidence="MEDIUM">
+               <source>pom</source>
+               <name>url</name>
+               <value>http://xmlbeans.apache.org</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>central</source>
+               <name>version</name>
+               <value>2.6.0</value>
+            </evidence>
+            <evidence type="version" confidence="HIGH">
+               <source>file</source>
+               <name>version</name>
+               <value>2.6.0</value>
+            </evidence>
+            <evidence type="version" confidence="HIGHEST">
+               <source>pom</source>
+               <name>version</name>
+               <value>2.6.0</value>
+            </evidence>
+         </evidenceCollected>
+         <identifiers>
+            <package confidence="HIGH">
+               <id>pkg:maven/org.apache.xmlbeans/xmlbeans@2.6.0</id>
+               <url>https://ossindex.sonatype.org/component/pkg:maven/org.apache.xmlbeans/xmlbeans@2.6.0?utm_source=dependency-check&amp;utm_medium=integration&amp;utm_content=6.2.2</url>
+            </package>
+            <vulnerabilityIds confidence="HIGHEST">
+               <id>cpe:2.3:a:apache:xmlbeans:2.6.0:*:*:*:*:*:*:*</id>
+               <url>https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;results_type=overview&amp;search_type=all&amp;cpe_vendor=cpe%3A%2F%3Aapache&amp;cpe_product=cpe%3A%2F%3Aapache%3Axmlbeans&amp;cpe_version=cpe%3A%2F%3Aapache%3Axmlbeans%3A2.6.0</url>
+            </vulnerabilityIds>
+         </identifiers>
+         <vulnerabilities>
+            <vulnerability source="NVD">
+               <name>CVE-2021-23926</name>
+               <severity>CRITICAL</severity>
+               <cvssV2>
+                  <score>6.4</score>
+                  <accessVector>NETWORK</accessVector>
+                  <accessComplexity>LOW</accessComplexity>
+                  <authenticationr>NONE</authenticationr>
+                  <confidentialImpact>PARTIAL</confidentialImpact>
+                  <integrityImpact>NONE</integrityImpact>
+                  <availabilityImpact>PARTIAL</availabilityImpact>
+                  <severity>MEDIUM</severity>
+                  <version>2.0</version>
+                  <exploitabilityScore>10.0</exploitabilityScore>
+                  <impactScore>4.9</impactScore>
+               </cvssV2>
+               <cvssV3>
+                  <baseScore>9.1</baseScore>
+                  <attackVector>NETWORK</attackVector>
+                  <attackComplexity>LOW</attackComplexity>
+                  <privilegesRequired>NONE</privilegesRequired>
+                  <userInteraction>NONE</userInteraction>
+                  <scope>UNCHANGED</scope>
+                  <confidentialityImpact>HIGH</confidentialityImpact>
+                  <integrityImpact>NONE</integrityImpact>
+                  <availabilityImpact>HIGH</availabilityImpact>
+                  <baseSeverity>CRITICAL</baseSeverity>
+                  <exploitabilityScore>3.9</exploitabilityScore>
+                  <impactScore>5.2</impactScore>
+                  <version>3.1</version>
+               </cvssV3>
+               <cwes>
+                  <cwe>CWE-776</cwe>
+               </cwes>
+               <description>The XML parsers used by XMLBeans up to version 2.6.0 did not set the properties needed to protect the user from malicious XML input. Vulnerabilities include possibilities for XML Entity Expansion attacks. Affects XMLBeans up to and including v2.6.0.</description>
+               <references>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/r2dc5588009dc9f0310b7382269f932cc96cae4c3901b747dda1a7fed@%3Cjava-dev.axis.apache.org%3E</url>
+                     <name>[axis-java-dev] 20210312 xmlbeans 2.6.0 and CVE-2021-23926</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://poi.apache.org/</url>
+                     <name>https://poi.apache.org/</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.apache.org/thread.html/rbb01d10512098894cd5f22325588197532c64f1c818ea7e4120d40c1@%3Cjava-dev.axis.apache.org%3E</url>
+                     <name>[axis-java-dev] 20210312 Re: xmlbeans 2.6.0 and CVE-2021-23926</name>
+                  </reference>
+                  <reference>
+                     <source>MISC</source>
+                     <url>https://issues.apache.org/jira/browse/XMLBEANS-517</url>
+                     <name>https://issues.apache.org/jira/browse/XMLBEANS-517</name>
+                  </reference>
+                  <reference>
+                     <source>CONFIRM</source>
+                     <url>https://security.netapp.com/advisory/ntap-20210513-0004/</url>
+                     <name>https://security.netapp.com/advisory/ntap-20210513-0004/</name>
+                  </reference>
+                  <reference>
+                     <source>MLIST</source>
+                     <url>https://lists.debian.org/debian-lts-announce/2021/06/msg00024.html</url>
+                     <name>[debian-lts-announce] 20210628 [SECURITY] [DLA 2693-1] xmlbeans security update</name>
+                  </reference>
+               </references>
+               <vulnerableSoftware>
+                  <software vulnerabilityIdMatched="true" versionEndIncluding="2.6.0">cpe:2.3:a:apache:xmlbeans:*:*:*:*:*:*:*:*</software>
+                  <software>cpe:2.3:a:netapp:oncommand_unified_manager_core_package:-:*:*:*:*:*:*:*</software>
+                  <software>cpe:2.3:a:netapp:snap_creator_framework:-:*:*:*:*:*:*:*</software>
+                  <software>cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:oracle:*:*</software>
+                  <software>cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:sap:*:*</software>
+               </vulnerableSoftware>
+            </vulnerability>
+         </vulnerabilities>
+      </dependency>
+   </dependencies>
+</analysis>
